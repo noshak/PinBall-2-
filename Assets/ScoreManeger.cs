@@ -36,7 +36,7 @@ public class ScoreManeger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //ScoreTextに特典を表示
+        //ScoreTextに得点を表示
         this.scoreText.GetComponent<Text>().text = "Score:" + this.score;
     }
 }
